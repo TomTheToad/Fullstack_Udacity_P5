@@ -16,6 +16,8 @@ Summary of installation and configuration:
 
   All of this was taken from the inital root login and later the grader login .bash_profile files and my notes.
   I apologize if I skip around. I took advantage of being in root to stream line allot of work.
+  
+  I decided to use a singleton pattern with the apache server .conf and wsgi setup to keep things simple.
 
 Installed Software:
 finger, apache2, mod_wsgi, libapache2-mod-wsgi, git, python-pip, flask, python-psycopg2, sqlalchemy, oauth2client
